@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@media only screen and (max-device-width: 480px) {
+  body {
+    background-color: hsl(180, 52%, 96%);
+  }
+}

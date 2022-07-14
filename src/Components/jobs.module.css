@@ -1,0 +1,119 @@
+.row {
+    display: flex;
+    gap: 30px;  
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 8px;
+    margin-right: 100px;
+    padding: 30px;
+    align-items: center;
+    box-shadow: 0px 10px 15px -7px rgb(93 164 164 / 50%);
+}
+.col1 {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+.company {
+    color: hsl(180, 29%, 50%);
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.col2 {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.new {
+    color: white;
+    background-color: hsl(180, 29%, 50%);
+    padding: 8px;
+    border-radius: 15px;
+}
+.featured {
+    color: white;
+    background-color: black;
+    padding: 8px;
+    border-radius: 15px;
+}
+.position {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: hsl(180, 14%, 20%);
+}
+.position:hover {
+    color: hsl(180, 29%, 50%);
+}
+.col3 {
+    display: flex; 
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: hsl(180, 8%, 52%);
+}
+.col4 {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+    font-size: 1.3rem;
+    color: hsl(180, 29%, 50%);
+    font-weight: 500;
+}
+.role {
+    background-color: hsl(180, 52%, 96%);
+    padding: 10px;
+}
+.col5 {
+    display: flex; 
+    gap: 20px;
+}
+.role:hover {
+    color: white;
+    background-color: hsl(180, 29%, 50%)
+}
+.showDiv {
+    background-color: hsl(180, 52%, 96%);
+    color: hsl(180, 29%, 50%);
+    padding: 10px, 0px, 10px, 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.clear {
+    color: hsl(180, 29%, 50%);
+    margin-left: auto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.clear:hover {
+    border-bottom: 2px solid hsl(180, 29%, 50%);
+}
+.delete {
+    color: white;
+    background-color: hsl(180, 29%, 50%); 
+    padding: 10px;
+}
+.delete:hover {
+    background-color: black;
+}
+@media only screen and (max-device-width: 480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-radius: 8px;
+        margin-right: 50px;
+        padding: 30px;
+        align-items: flex-start;
+    }
+}
